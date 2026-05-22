@@ -13,7 +13,7 @@ Passi di configurazione:
 ATTENZIONE: Il TS_DOMAIN, per adesso, deve essere impostato manualmente nei vari file di configurazione del progetto. Questo comporta la necessità di ricostruire le immagini
 
 
-Il "--files" prende non il nome.compose.yml, ma solo la parte nome. Ad esempio:   
+Il "--files" prende la parte nome del file compose chiamato nome.compose.yml. Ad esempio:   
 "./compose-stack.py up-p --files kafka-1 kafka-2 kafka-3"   
 e non:    
 "./compose-stack.py up-p --files kafka-1.compose.yml kafka-2.compose.yml kafka-3.compose.yml"   
